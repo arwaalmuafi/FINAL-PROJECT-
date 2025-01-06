@@ -56,5 +56,8 @@ Diagrams
 LINKS
 ----
 
-- [Figma Link]([URL](https://www.figma.com/proto/huBCpG2PP2vTlZ0B1Nx4K6/final-project?page-id=0%3A1&node-id=9-5&p=f&viewport=-8861%2C-145%2C0.31&t=QaGAmGcOXirEydb9-1&scaling=scale-down&content-scaling=fixed))
-
+- [Figma Design](https://www.figma.com/proto/huBCpG2PP2vTlZ0B1Nx4K6/final-project?page-id=0%3A1&node-id=9-5&p=f&viewport=-8861%2C-145%2C0.31&t=QaGAmGcOXirEydb9-1&scaling=scale-down&content-scaling=fixed)
+  
+- [Presentation](https://www.canva.com/design/DAGbZ16ueGM/JmZN7M8OLPRVjrAVlBmJuQ/edit?utm_content=DAGbZ16ueGM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+  
+-[PostMan api]()
