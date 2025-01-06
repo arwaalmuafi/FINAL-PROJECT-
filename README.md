@@ -60,4 +60,61 @@ LINKS
   
 - [Presentation](https://www.canva.com/design/DAGbZ16ueGM/JmZN7M8OLPRVjrAVlBmJuQ/edit?utm_content=DAGbZ16ueGM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
   
--[PostMan api]()
+- [PostMan api]()
+----
+MY work on the Project I have Make the tournament,bracket,round,match and participant CRUD and Models. I have also i have done this extra :
+---
+
+## Task 
+- MODEL
+- CONTROLLER
+- SERVICE
+- REPOSITORY
+- DTO IN
+- DTO OUT
+## ENDPOINT
+- getTasksByExplorer
+- changeTaskStatus
+- viewTaskProgressForAllExplorers 
+- getIncompleteTasksForExplorer
+- changeTaskStatusToCompleted 
+- getTasksByExperience 
+
+——————————————————
+## ReviewExplorer
+- MODEL
+- CONTROLLER
+- SERVICE
+- REPOSITORY
+- DTO IN
+- DTO OUT
+## ENDPOINT
+- getAllReviewsByExplorer
+- getReviewsByOrganizer
+- getExplorerReviewsFilteredByLowToHigh
+- getExplorerReviewsFilteredByHighToLow
+————————————————————————-
+## ReviewExperience
+- MODEL
+- CONTROLLER
+- SERVICE
+- REPOSITORY
+- DTO IN
+- DTO OUT
+  ## ENDPOINT
+- getExplorerReviewsFilteredByExperience
+- getExperienceReviewsFilteredByDate
+- getExplorerReviewsFilteredByLowToHigh
+- getExplorerReviewsFilteredByHighToLow
+- getAllReveiwsByExperince
+
+————————————————————————
+## Tag
+- MODEL
+- CONTROLLER
+- SERVICE
+- REPOSITORY
+- DTO IN
+- DTO OUT
+  ## ENDPOINT
+-  assignTagsToExperience
