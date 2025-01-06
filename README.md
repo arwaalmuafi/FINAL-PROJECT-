@@ -65,7 +65,8 @@ LINKS
 MY work on the Project I have Make the tournament,bracket,round,match and participant CRUD and Models. I have also i have done this extra :
 ---
 
-## Task 
+Task
+-----------
 - MODEL
 - CONTROLLER
 - SERVICE
@@ -79,9 +80,9 @@ MY work on the Project I have Make the tournament,bracket,round,match and partic
 - getIncompleteTasksForExplorer
 - changeTaskStatusToCompleted 
 - getTasksByExperience 
-
-——————————————————
-## ReviewExplorer
+-----------
+ReviewExplorer
+-----------
 - MODEL
 - CONTROLLER
 - SERVICE
@@ -93,28 +94,29 @@ MY work on the Project I have Make the tournament,bracket,round,match and partic
 - getReviewsByOrganizer
 - getExplorerReviewsFilteredByLowToHigh
 - getExplorerReviewsFilteredByHighToLow
-————————————————————————-
-## ReviewExperience
+-----------
+ReviewExperience
+-----------
 - MODEL
 - CONTROLLER
 - SERVICE
 - REPOSITORY
 - DTO IN
 - DTO OUT
-  ## ENDPOINT
+## ENDPOINT
 - getExplorerReviewsFilteredByExperience
 - getExperienceReviewsFilteredByDate
 - getExplorerReviewsFilteredByLowToHigh
 - getExplorerReviewsFilteredByHighToLow
 - getAllReveiwsByExperince
-
-————————————————————————
-## Tag
+-----------
+Tag
+-----------
 - MODEL
 - CONTROLLER
 - SERVICE
 - REPOSITORY
 - DTO IN
 - DTO OUT
-  ## ENDPOINT
+## ENDPOINT
 -  assignTagsToExperience
