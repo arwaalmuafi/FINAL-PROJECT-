@@ -62,7 +62,7 @@ LINKS
   
 - [PostMan api]()
 ----
-MY work on the Project I have Make the tournament,bracket,round,match and participant CRUD and Models. I have also i have done this extra :
+MY work on the Project:
 ---
 
 Task
