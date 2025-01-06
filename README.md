@@ -1,5 +1,5 @@
-# FINAL-PROJECT-Task Management
-
+# FINAL-PROJECT-
+Task MODEL+REPOSETORY
 Controller: TaskController
 GET /tasks/explorer/{explorerId}
 Get all tasks assigned to a specific explorer.
@@ -19,7 +19,8 @@ Service: changeTaskStatusToCompleted(taskId)
 GET /tasks/experience/{experienceId}
 Get all tasks associated with a specific experience.
 Service: getTasksByExperience(experienceId)
-Explorer Review Management
+
+Explorer Review MODEL+REPOSETORY
 
 Controller: ReviewExplorerController
 GET /reviews/explorer/{explorerId}
@@ -34,7 +35,8 @@ Service: getExplorerReviewsFilteredByLowToHigh()
 GET /reviews/explorer/high-to-low
 Get explorer reviews sorted by rating (high to low).
 Service: getExplorerReviewsFilteredByHighToLow()
-Experience Review Management
+
+Experience Review MODEL+REPOSETORY
 
 Controller: ReviewExperienceController
 GET /reviews/experience/{experienceId}/explorer
@@ -49,7 +51,8 @@ Service: getExplorerReviewsFilteredByLowToHigh()
 GET /reviews/experience/high-to-low
 Get experience reviews sorted by rating (high to low).
 Service: getExplorerReviewsFilteredByHighToLow()
-Tag Management
+
+Tag MODEL + REPOSETORY
 
 Controller: TagController
 POST /tags/experience/{experienceId}
