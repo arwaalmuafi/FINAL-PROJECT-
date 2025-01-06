@@ -1,97 +1,21 @@
-# FINAL-PROJECT-
+BOND WEB
 
-Task MODEL+REPOSETORY
+"Bond Web" is a dynamic platform designed to connect people through shared experiences, fostering meaningful relationships and creating unforgettable memories. It offers a space for individuals to discover, connect, and celebrate life’s vibrant moments together.
 
-Controller: TaskController
+Key Features
+Experience Discovery: Explore unique activities and events tailored to your interests, enabling you to step out of your comfort zone and experience something new.
+Connection Building: Meet like-minded individuals who share your passions, creating genuine bonds and lasting friendships through shared experiences.
+Adventure Made Simple: Easily organize, join, or participate in adventures with a seamless user experience designed to bring people together effortlessly.
+Sustainability & Innovation: The platform emphasizes eco-friendly practices and cutting-edge technology to enhance user interactions while positively impacting the community and environment.
+Celebrating Life: Turn everyday encounters into extraordinary memories by joining a community that celebrates connection, growth, and the beauty of shared moments.
+Arabic Version
+بوند ويب
 
-GET /tasks/explorer/{explorerId}
+"بوند ويب" هو منصة ديناميكية تهدف إلى ربط الناس من خلال تجارب مشتركة، مما يعزز العلاقات الهادفة ويخلق ذكريات لا تُنسى. يوفر مساحة للأفراد لاكتشاف، والتواصل، والاحتفال بلحظات الحياة المشرقة معًا.
 
-Get all tasks assigned to a specific explorer.
-
-Service: getTasksByExplorer(explorerId)
-
-PUT /tasks/{taskId}/status
-
-Change the status of a task (e.g., from pending to completed).
-
-Service: changeTaskStatus(taskId, status)
-
-GET /tasks/progress
-
-View task progress for all explorers.
-
-Service: viewTaskProgressForAllExplorers()
-
-GET /tasks/incomplete/explorer/{explorerId}
-
-Get all incomplete tasks for a specific explorer.
-
-Service: getIncompleteTasksForExplorer(explorerId)
-
-PUT /tasks/{taskId}/complete
-
-Mark a specific task as completed.
-
-Service: changeTaskStatusToCompleted(taskId)
-
-GET /tasks/experience/{experienceId}
-
-Get all tasks associated with a specific experience.
-
-Service: getTasksByExperience(experienceId)
-
-Explorer Review MODEL+REPOSETORY
-
-Controller: ReviewExplorerController
-
-GET /reviews/explorer/{explorerId}
-
-Get all reviews written by a specific explorer.
-
-Service: getAllReviewsByExplorer(explorerId)
-
-GET /reviews/organizer/{organizerId}
-
-Get all reviews for a specific organizer.
-
-Service: getReviewsByOrganizer(organizerId)
-
-GET /reviews/explorer/low-to-high
-
-Get explorer reviews sorted by rating (low to high).
-
-Service: getExplorerReviewsFilteredByLowToHigh()
-
-GET /reviews/explorer/high-to-low
-
-Get explorer reviews sorted by rating (high to low).
-
-Service: getExplorerReviewsFilteredByHighToLow()
-
-Experience Review MODEL+REPOSETORY
-
-Controller: ReviewExperienceController
-GET /reviews/experience/{experienceId}/explorer
-Get reviews for an experience, filtered by explorer.
-Service: getExplorerReviewsFilteredByExperience(experienceId)
-GET /reviews/experience/{experienceId}/date
-Get reviews for an experience, sorted by date.
-Service: getExperienceReviewsFilteredByDate(experienceId)
-GET /reviews/experience/low-to-high
-Get experience reviews sorted by rating (low to high).
-Service: getExplorerReviewsFilteredByLowToHigh()
-GET /reviews/experience/high-to-low
-Get experience reviews sorted by rating (high to low).
-Service: getExplorerReviewsFilteredByHighToLow()
-
-Tag MODEL + REPOSETORY
-
-Controller: TagController
-POST /tags/experience/{experienceId}
-Assign one or more tags to a specific experience.
-Service: assignTagsToExperience(experienceId, tagList)
-Structure
-Model: Defines the data structure for each entity (Task, ReviewExplorer, ReviewExperience, Tag).
-Repository: Handles database interactions for the respective entity.
-Service: Implements the business logic for each endpoint.
-Controller: Exposes the APIs for clients to interact with the system.
+الميزات الرئيسية
+استكشاف التجارب: اكتشف أنشطة وفعاليات فريدة مصممة حسب اهتماماتك، مما يمنحك الفرصة لتجربة شيء جديد والخروج من منطقة الراحة.
+بناء الروابط: قابل أشخاصًا يشاركونك شغفك، وكون علاقات حقيقية وصداقات دائمة من خلال تجارب مشتركة.
+تجربة مغامرات مبسطة: نظم أو شارك بسهولة في مغامرات مع تجربة مستخدم مصممة لجمع الأشخاص معًا بسلاسة.
+الاستدامة والابتكار: تركز المنصة على الممارسات الصديقة للبيئة والتكنولوجيا المتقدمة لتحسين تفاعل المستخدمين مع إحداث تأثير إيجابي على المجتمع والبيئة.
+الاحتفال بالحياة: حوّل اللقاءات اليومية إلى ذكريات استثنائية من خلال الانضمام إلى مجتمع يحتفي بالاتصال، والنمو، وجمال اللحظات المشتركة.
