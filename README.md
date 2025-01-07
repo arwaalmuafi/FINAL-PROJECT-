@@ -58,7 +58,7 @@ LINKS
 
 - [Figma Design](https://www.figma.com/proto/huBCpG2PP2vTlZ0B1Nx4K6/final-project?page-id=0%3A1&node-id=9-5&p=f&viewport=-8861%2C-145%2C0.31&t=QaGAmGcOXirEydb9-1&scaling=scale-down&content-scaling=fixed)
   
-- [Presentation](https://www.canva.com/design/DAGbZ16ueGM/JmZN7M8OLPRVjrAVlBmJuQ/edit?utm_content=DAGbZ16ueGM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Presentation](https://www.canva.com/design/DAGbZ16ueGM/L4r5wTp_LxOYT0tzzbD_-w/view?utm_content=DAGbZ16ueGM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1a7b27e9b9)
   
 - [PostMan api]()
 ----
@@ -73,6 +73,7 @@ Task
 - REPOSITORY
 - DTO IN
 - DTO OUT
+- View Task Out DTO
 ## ENDPOINT
 - getTasksByExplorer
 - changeTaskStatus
@@ -87,7 +88,6 @@ ReviewExplorer
 - CONTROLLER
 - SERVICE
 - REPOSITORY
-- DTO IN
 - DTO OUT
 ## ENDPOINT
 - getAllReviewsByExplorer
@@ -101,7 +101,6 @@ ReviewExperience
 - CONTROLLER
 - SERVICE
 - REPOSITORY
-- DTO IN
 - DTO OUT
 ## ENDPOINT
 - getExplorerReviewsFilteredByExperience
