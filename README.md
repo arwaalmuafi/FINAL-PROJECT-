@@ -67,7 +67,7 @@ MY work on the Project:
 
 Task
 -----------
-- MODEL
+- MODEL & CRUD
 - CONTROLLER
 - SERVICE
 - REPOSITORY
@@ -84,7 +84,7 @@ Task
 -----------
 ReviewExplorer
 -----------
-- MODEL
+- MODEL & CRUD
 - CONTROLLER
 - SERVICE
 - REPOSITORY
@@ -97,7 +97,7 @@ ReviewExplorer
 -----------
 ReviewExperience
 -----------
-- MODEL
+- MODEL & CRUD
 - CONTROLLER
 - SERVICE
 - REPOSITORY
@@ -111,7 +111,7 @@ ReviewExperience
 -----------
 Tag
 -----------
-- MODEL
+- MODEL & CRUD
 - CONTROLLER
 - SERVICE
 - REPOSITORY
